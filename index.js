@@ -1,8 +1,9 @@
 // Your code goes here
 
-document.addEventListener("DOMContentLoaded", function(e) {
-    console.log("The DOM has load")
+document.addEventListener("DOMContentLoaded", (event) => {
+    document.getElementById('text').innerHTML = 'This is really cool'
   });
+  
   
 console.log(
     "This console.log() fires when index.js loads - before DOMContentLoaded is triggered"
